@@ -19,6 +19,8 @@ What do we have here...
 
 ## 👇 Downloading & using the icon(s)
 
+### 🐌 The manual way
+
 The easiest way will be for you to download the icon you want from the the [`icons`](./icons) directory. Simply find which macOS version you would like the icon for, and if applicable the light or dark mode variant, and download the `icns` file within that directory using GitHub's Download button once within a file's context:
 
 <p align="middle">
@@ -31,11 +33,39 @@ To apply the icon, right click on the directory that you wish to update the icon
   <img src="art/get_info.png" width="30%" alt="macOS 'Get Info' dialogue window" />
 </p>
 
-Ta-da! 🎉
+Ta-da! 🎉 You're all set, the icon should now be looking glorious.
+
+### 🚀 The fun way
+
+There's a brilliant tool called [`fileicon`](https://github.com/mklement0/fileicon) in which can programmatically set the icons of files and folders in macOS.
+
+To install it via [`brew`](https://brew.sh/):
+
+```sh
+brew install fileicon
+```
+
+Then, if we assume that the directory we want to set the icon for is `~/git` and the downloaded icon resides in `~/Downloads/icon.icns`:
+
+```sh
+# Assign the custom downloaded GitHub icon to ~/git
+fileicon set ~/git ~/Downloads/icon.icns
+```
+
+Ta-da! 🎉 You're all set, the icon should now be looking glorious.
+
+To restore the icon to its original state:
+
+```sh
+# Remove the custom downloaded GitHub icon from ~/git
+fileicon rm ~/git
+```
+
+More examples can be found under the [Examples heading in the `fileicon` README](https://github.com/mklement0/fileicon#examples).
 
 ## 🧰 Installing dependencies
 
-I used to manually find and extract the folder icon upon every release, but someone recently introduced me to... [Folderify](https://github.com/lgarron/folderify)! Which has made maintaining this repo a breeze.
+I used to manually find and extract the folder icon upon every release, but someone recently introduced me to... [`folderify`](https://github.com/lgarron/folderify)! Which has made maintaining this repo a breeze.
 
 Make sure [`brew`](https://brew.sh/) is installed (don't want to automate installing this on your system) and then go ahead and run the `make` command to get things setup:
 
@@ -94,5 +124,6 @@ Although this step is run prior to generating new icons anyway.
 ## 🎂 Sources
 
 - Amazing GitHub icon: [Dave Gandy on flaticon](https://www.flaticon.com/free-icon/github-logo_25231)
-- Superb icon generation: [Folderify](https://github.com/lgarron/folderify)
+- Superb icon generation: [`folderify`](https://github.com/lgarron/folderify)
+- Brilliant icon application automation: [`fileicon`](https://github.com/mklement0/fileicon)
 - Fabulous macOS package manager: [`brew`](https://brew.sh/)
