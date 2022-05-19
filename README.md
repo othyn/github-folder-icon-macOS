@@ -17,7 +17,7 @@ What you get:
   <img src="art/preview_new.png" width="25%" alt="the newest macOS icon" />
 </p>
 
-# 👇 Downloading the icon(s)
+## 👇 Downloading & using the icon(s)
 
 The easiest way will be for you to download the icon you want from the the [`icons`](./icons) directory. Simply find which macOS version you would like the icon for, and if applicable the light or dark mode variant, and download the `icns` file within that directory using GitHub's Download button once within a file's context:
 
@@ -33,7 +33,7 @@ To apply the icon, right click on the directory that you wish to update the icon
 
 Ta-da! 🎉
 
-# 🧰 Installing dependencies
+## 🧰 Installing dependencies
 
 I used to manually find and extract the folder icon upon every release, but someone recently introduced me to... [Folderify](https://github.com/lgarron/folderify)! Which has made maintaining this repo a breeze.
 
@@ -43,7 +43,7 @@ Make sure [`brew`](https://brew.sh/) is installed (don't want to automate instal
 make install
 ```
 
-# 🏗️ Generating icons
+## 🏗️ Generating icons
 
 This is as simple as ensuring that you've already run `make install` and then running:
 
@@ -51,7 +51,7 @@ This is as simple as ensuring that you've already run `make install` and then ru
 make icons
 ```
 
-## 🎨️ Manually generating just the icons
+### 🎨️ Manually generating just the icons
 
 To generate just the icons on their own, run:
 
@@ -59,7 +59,9 @@ To generate just the icons on their own, run:
 make generate
 ```
 
-## 🖼️ Manually generating a new preview image
+Although this step is run prior to generating new icons anyway.
+
+### 🖼️ Manually generating a new preview image
 
 To generate a new preview image, used in the README of this project, run:
 
@@ -67,7 +69,9 @@ To generate a new preview image, used in the README of this project, run:
 make preview
 ```
 
-## 🗑️ Manually cleaning Icons
+Although this step is run prior to generating new icons anyway.
+
+### 🗑️ Manually cleaning Icons
 
 If you want to quickly wipe the slate clean, run:
 
@@ -77,7 +81,7 @@ make clean
 
 Although this step is run prior to generating new icons anyway.
 
-# ❓ F.A.Q's
+## ❓ F.A.Q's
 
 - Can I get the icon to automatically change with light/dark mode?
 
@@ -87,7 +91,7 @@ Although this step is run prior to generating new icons anyway.
 
   - This appears to be a limitation within macOS itself and Apple currently not allowing for the distinction between two icons
 
-# 🎂 Sources
+## 🎂 Sources
 
 - Amazing GitHub icon: [Dave Gandy on flaticon](https://www.flaticon.com/free-icon/github-logo_25231)
 - Superb icon generation: [Folderify](https://github.com/lgarron/folderify)
