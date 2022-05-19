@@ -7,7 +7,7 @@ define makeIcon
 
 	@ mkdir -p "./icons/$(1) - $(2)/$(if $(3),$(3),light)"
 
-	@ folderify ./art/mask.png --macOS $(1) --color-scheme $(if $(3),$(3),light) > /dev/null 2>&1
+	@ folderify ./mask.png --macOS $(1) --color-scheme $(if $(3),$(3),light) > /dev/null 2>&1
 
 	@ mv "./mask.iconset" "./icons/$(1) - $(2)/$(if $(3),$(3),light)/icon.iconset"
 	@ mv "./mask.icns" "./icons/$(1) - $(2)/$(if $(3),$(3),light)/icon.icns"
