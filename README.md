@@ -2,9 +2,9 @@
 
 Made so that it fits nicely alongside all the others inside your home directory... or wherever.
 
-What you get:
+What do we have here...
 
-- ... 📈 A version available all the way from Mac OS X 10.5 (Leopard) through to macOS 12 (Monterey), see the [`icons`](./icons) folder
+- ... 📈 A version available all the way from Mac OS X 10.5 (Leopard) through to macOS 12 (Monterey)
 - ... 🌗 Light and Dark mode variants (where applicable, macOS 11 or later)
 - ... 📁 Both `icns` and `iconset` versions of all icons
 - ... 🖼️ All icon sizes from `16x16` through to `512x512@2x`
