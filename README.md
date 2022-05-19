@@ -11,9 +11,9 @@ What you get:
 
 <p align="middle">
   <img src="art/preview_old.png" width="25%" alt="the oldest Mac OS X icon" />
-  &nbsp; &nbsp; &nbsp;
-  <img src="art/arrow.png" width="50%" alt="an arrow pointing right" />
-  &nbsp; &nbsp; &nbsp;
+  &nbsp;
+  <img src="art/arrow.png" width="10%" alt="an arrow pointing right" />
+  &nbsp;
   <img src="art/preview_new.png" width="25%" alt="the newest macOS icon" />
 </p>
 
