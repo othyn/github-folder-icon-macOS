@@ -12,7 +12,7 @@ What you get:
 <p align="middle">
   <img src="art/preview_old.png" width="25%" alt="the oldest Mac OS X icon" />
   &nbsp; &nbsp; &nbsp;
-  <img src="art/arrow.png" width="5%" alt="an arrow pointing right" />
+  <img src="art/arrow.png" width="50%" alt="an arrow pointing right" />
   &nbsp; &nbsp; &nbsp;
   <img src="art/preview_new.png" width="25%" alt="the newest macOS icon" />
 </p>
@@ -22,13 +22,13 @@ What you get:
 The easiest way will be for you to download the icon you want from the the [`icons`](./icons) directory. Simply find which macOS version you would like the icon for, and if applicable the light or dark mode variant, and download the `icns` file within that directory using GitHub's Download button once within a file's context:
 
 <p align="middle">
-  <img src="art/download.png" width="20%" alt="GitHub's download button" />
+  <img src="art/download.png" width="75%" alt="GitHub's download button" />
 </p>
 
 To apply the icon, right click on the directory that you wish to update the icon of and click 'Get Info', a new dialogue window should appear. You now need to click-and-drag the downloaded `icns` file into the small icon in the top left of the window next to the directory name:
 
 <p align="middle">
-  <img src="art/get_info.png" width="20%" alt="macOS 'Get Info' dialogue window" />
+  <img src="art/get_info.png" width="30%" alt="macOS 'Get Info' dialogue window" />
 </p>
 
 Ta-da! 🎉
