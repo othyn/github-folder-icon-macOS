@@ -90,6 +90,10 @@ generate:
 	$(call makeIcon,12.0,Monterey)
 	$(call makeIcon,12.0,Monterey,dark)
 
+	@ # macOS 13 - Ventura
+	$(call makeIcon,13.0,Ventura)
+	$(call makeIcon,13.0,Ventura,dark)
+
 	@ echo "~ New icons created!"
 	@ echo ""
 
@@ -99,7 +103,7 @@ preview:
 	@ echo "~ Creating preview image..."
 
 	$(call icnsToPng,"./icons/10.5 - Leopard/light/icon.icns","./art/preview_old.png")
-	$(call icnsToPng,"./icons/12.0 - Monterey/light/icon.icns","./art/preview_new.png")
+	$(call icnsToPng,"./icons/13.0 - Ventura/light/icon.icns","./art/preview_new.png")
 
 	@ echo "~ Preview image created!"
 	@ echo ""
