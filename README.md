@@ -4,7 +4,7 @@ Made so that it fits nicely alongside all the others inside your home directory.
 
 What do we have here...
 
-- ... 📈 A version available all the way from Mac OS X 10.5 (Leopard) through to macOS 13 (Ventura)
+- ... 📈 A version available all the way from Mac OS X 10.5 (Leopard) through to macOS 15 (Sequoia)
 - ... 🌗 Light and Dark mode variants (where applicable, macOS 11 or later)
 - ... 📁 Both `icns` and `iconset` versions of all icons
 - ... 🖼️ All icon sizes from `16x16` through to `512x512@2x`
